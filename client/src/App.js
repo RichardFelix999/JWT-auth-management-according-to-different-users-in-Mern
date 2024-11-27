@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import SignIn from './pages/SignIn/SingIn';
 import MemberManagement from './pages/MemberManagement/MemberManagement';
+import Signup from './pages/SignUp/SingUp';
+import SignIn from './pages/SignIn/SignIn';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path={'/'}>
-              <Route path={'/'} element={<SignIn/>} />
-              <Route path={'/membermanagement'} element={<MemberManagement/>} />
+            <Route path={'/'} element={<SignIn />} />
+            <Route path={'/signup'} element={<Signup />} />
+            <Route path={'/membermanagement'} element={<MemberManagement />} />
           </Route>
         </Routes>
       </BrowserRouter>
