@@ -19,4 +19,20 @@ export const confirm = <svg xmlns="http://www.w3.org/2000/svg" width="21.125" he
     </g>
 </svg>
 
+export const menu = <svg xmlns="http://www.w3.org/2000/svg" width="33" height="22" viewBox="0 0 33 22">
+    <path id="sort_-_material" data-name="sort - material" d="M11,22H0V18H11v4Zm11-9H0V9H22v4ZM33,4H0V0H33V4Z" transform="translate(0 0)" fill="#fff" />
+</svg>
+
+export const submenu = <svg xmlns="http://www.w3.org/2000/svg" width="5" height="21" viewBox="0 0 5 21">
+    <defs>
+        <clipPath id="clip-path">
+            <rect width="5" height="21" fill="none" />
+        </clipPath>
+    </defs>
+    <g id="Header_Options_Icon" data-name="Header Options Icon" clip-path="url(#clip-path)">
+        <g id="Header_Options_Icon_dark_Copy" data-name="Header Options Icon dark Copy" transform="translate(0 0)">
+            <path id="_" data-name="" d="M2.5,21a2.35,2.35,0,0,1-1.756-.786,2.683,2.683,0,0,1,0-3.71,2.355,2.355,0,0,1,3.512,0,2.683,2.683,0,0,1,0,3.71A2.35,2.35,0,0,1,2.5,21Zm0-7.859a2.35,2.35,0,0,1-1.756-.786,2.683,2.683,0,0,1,0-3.71,2.355,2.355,0,0,1,3.512,0,2.683,2.683,0,0,1,0,3.71A2.35,2.35,0,0,1,2.5,13.141Zm0-7.86A2.351,2.351,0,0,1,.744,4.5,2.62,2.62,0,0,1,0,2.641,2.62,2.62,0,0,1,.744.786a2.355,2.355,0,0,1,3.512,0A2.62,2.62,0,0,1,5,2.641,2.62,2.62,0,0,1,4.256,4.5,2.351,2.351,0,0,1,2.5,5.281Z" fill="#fff" />
+        </g>
+    </g>
+</svg>
 

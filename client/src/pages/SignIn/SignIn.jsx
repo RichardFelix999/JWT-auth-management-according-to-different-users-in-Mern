@@ -1,5 +1,5 @@
 
-import { email, password } from "../icon";
+import { email, password } from "../../fakeDB/icon";
 
 const SignIn = () => {
 

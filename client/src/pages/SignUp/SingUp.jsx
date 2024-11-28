@@ -1,5 +1,5 @@
 
-import { email, password, user } from "../icon";
+import { email, password, user } from "../../fakeDB/icon";
 
 // import Sign from "../components/sigin";
 // import { signUp } from "../fakeData/fakeDB";

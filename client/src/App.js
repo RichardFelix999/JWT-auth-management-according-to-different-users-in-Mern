@@ -4,6 +4,7 @@ import './App.css';
 import MemberManagement from './pages/MemberManagement/MemberManagement';
 import Signup from './pages/SignUp/SingUp';
 import SignIn from './pages/SignIn/SignIn';
+import Chat from './pages/Chat/Chat';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path={'/'}>
             <Route path={'/'} element={<SignIn />} />
             <Route path={'/signup'} element={<Signup />} />
+            <Route path={'/chat'} element={<Chat />} />
             <Route path={'/membermanagement'} element={<MemberManagement />} />
           </Route>
         </Routes>
